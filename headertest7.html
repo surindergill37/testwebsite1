@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .header {
+      height: 40px;
+      background-color: plum;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 0.4rem;
+      box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+      transition: 1s;
+    }
+    .home {
+      width: 100px;
+      margin-left: 10px;
+      color: white;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 10px;
+    }
+    .search {
+      flex: 1;
+      max-width: 400px;
+    }
+    .search-bar {
+      width: 350px;
+      height: 20px;
+      border: none;
+      border-radius: 1rem;
+      padding-left: 14px;
+      padding-bottom: 2px;
+      max-width: 400px;
+    }
+    .search-bar:hover {
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    }
+    .download {
+      margin-right: 10px;
+      height: 20px;
+      margin-bottom: 10px;
+    }
+    .download-button {
+      color: white;
+      width: 100px;
+      background-color: transparent;
+      border: solid white;
+      border-width: 1px;
+      height: 30px;
+      border-radius: 0.3rem;
+      font-weight: bold;
+    }
+    .download-button:hover {
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    }
+  </style>
+  <body>
+    <div class="header">
+      <div class="home">Home</div>
+      <div class="search">
+        <input class="search-bar" type="text" placeholder="Search" />
+      </div>
+      <div class="download">
+        <button class="download-button">Download</button>
+      </div>
+    </div>
+  </body>
+</html>
